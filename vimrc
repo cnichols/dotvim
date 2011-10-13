@@ -45,6 +45,7 @@ map <F2> :NERDTreeToggle<cr>
 nnoremap <Leader>a :Ack<space>
 nnoremap <Leader><space> :noh<cr>
 nnoremap <Leader>n :cn<cr>
+nnoremap <leader>m :silent !open -a Marked.app '%:p'<cr>
 
 vmap <D-[> <gv
 vmap <D-]> >gv
